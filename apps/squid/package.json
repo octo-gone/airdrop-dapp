@@ -2,6 +2,9 @@
   "name": "squid-evm-template",
   "private": true,
   "scripts": {
+    "up": "sqd up && sqd process",
+    "down": "sqd down -v",
+    "dev": "sqd serve",
     "build": "rm -rf lib && tsc"
   },
   "dependencies": {

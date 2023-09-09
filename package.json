@@ -1,0 +1,6 @@
+{
+    "name": "airdrop-dapp",
+    "private": true,
+    "workspaces": ["apps/*"],
+    "packageManager": "npm@9.5.1"
+}

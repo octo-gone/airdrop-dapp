@@ -24,7 +24,7 @@ import {
   usePrepareErc20Transfer,
 } from "../generated";
 import { airdropAbi } from "./abi";
-import { ApolloClient, InMemoryCache, gql, ApolloProvider } from '@apollo/react-hooks';
+import { ApolloClient, InMemoryCache, gql, ApolloProvider } from '@apollo/client';
 
 
 const BIG_NUM = 1_000_000_000_000_000_000;

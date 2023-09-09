@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { Account } from "../components/Account";
-import { Connect } from "../components/Connect";
-import { Connected } from "../components/Connected";
-import { ERC20 } from "../components/ERC20";
-import Navbar from "../components/Navbar";
-import { NetworkSwitcher } from "../components/NetworkSwitcher";
+import { Account } from "./Account";
+import { Connect } from "./Connect";
+import { Connected } from "./Connected";
+import { ERC20 } from "./ERC20";
+import Navbar from "./Navbar";
+import { NetworkSwitcher } from "./NetworkSwitcher";
 import Header from "./Header";
 import Image from "next/image";
 import img from "../../public/img/download.png";

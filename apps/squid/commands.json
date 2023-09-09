@@ -3,7 +3,7 @@
     "commands": {
       "clean": {
         "description": "delete all build artifacts",
-        "cmd": ["npx", "--yes", "rimraf", "lib"]
+        "cmd": ["rm", "-rf", "lib"]
       },
       "build": {
         "description": "Build the squid project",
